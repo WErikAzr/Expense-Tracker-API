@@ -2,11 +2,10 @@ package com.example.expensetrackerapi.models;
 
 import jakarta.persistence.*;
 
-import javax.annotation.processing.Generated;
-import java.util.Date;
+import java.io.Serializable;
 
 @Entity
-public class User {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
