@@ -1,4 +1,4 @@
-package com.example.expensetrackerapi.models.springsecuritymodels;
+package com.example.expensetrackerapi.springsecurity;
 
 import com.example.expensetrackerapi.models.User;
 import org.jspecify.annotations.NonNull;
